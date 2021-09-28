@@ -1,0 +1,6 @@
+# Configuration parameters for bag recorder node.
+
+output_directory: '/home/haebum/bag_data' #Use save_directory service instead param.
+
+topics:
+  - '(.*)' #ALL

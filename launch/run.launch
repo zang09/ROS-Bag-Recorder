@@ -1,0 +1,8 @@
+<launch>
+    <group ns="bag_recorder">
+      <rosparam command="load" file="$(find bag_recorder)/config/parameter.yaml" />
+    </group>
+
+    <node name="bag_recorder" pkg="bag_recorder" type="bag_recorder_node.py" output="screen" />
+
+</launch>

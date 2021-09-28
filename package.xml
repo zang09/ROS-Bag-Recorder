@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<package format="2">
+  <name>bag_recorder</name>
+  <version>1.0.0</version>
+  <description>ROS package to allow starting and stopping of rosbag recordings via service calls.</description>
+
+  <maintainer email="zang09@naver.com">haebeom.jung</maintainer>
+
+  <license>BSD</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <depend>std_msgs</depend>
+  <depend>message_generation</depend>
+  <depend>message_runtime</depend>
+</package>
